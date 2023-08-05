@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 8px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        col.cnome{
+            background-color: lightgreen;
+        }
+        col.csexo{
+ 
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofissão">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">sexo</th>
+            <th scope="col">idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>45</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>M</td>
+            <td>31</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Thais</td>
+            <td>F</td>
+            <td>30</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Bernardo</td>
+            <td>M</td>
+            <td>3</td>
+            <td>Analista de investimentos</td>
+        </tr>
+        <tr>
+            <td>Fred</td>
+            <td>M</td>
+            <td>6</td>
+            <td>Energy filter</td>
+        </tr>
+        <tr>
+            <td>Bebe</td>
+            <td>M</td>
+            <td>7</td>
+            <td>Motorista de Aplicativo</td>
+        </tr>
+        <tr>
+            <td>Ligô</td>
+            <td>M</td>
+            <td>5</td>
+            <td>Advogato</td>
+        </tr>
+
+    </table>
+</body>
+</html>
